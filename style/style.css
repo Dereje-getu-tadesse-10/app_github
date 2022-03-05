@@ -78,6 +78,7 @@ form input[type="button"] {
   background-color: #0079FF;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
 form #erorr {
@@ -85,6 +86,28 @@ form #erorr {
 }
 
 form .search {
-  padding-right: 10%;
+  margin-right: 10%;
+}
+
+section {
+  margin: 10% auto;
+  height: 517px;
+  background-color: #fefefe;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+          box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+}
+
+section .profile {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section img {
+  height: 70px;
+  width: 70px;
+  border-radius: 999px;
 }
 /*# sourceMappingURL=style.css.map */
