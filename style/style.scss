@@ -3,6 +3,7 @@
     padding:0;
     text-decoration:none;
     list-style: none;
+    font-family: 'Space Mono';
 }
 
 // White mode
@@ -21,17 +22,31 @@ body{
     background: $fond;
 }
 
+
 main{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-section{
+    & section{
     margin:auto;
     width:40%;
     height:80%;
-    background-color: $Container;
+    }
 }
+
+// header
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    & .container{
+        width:10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+} 
+
+

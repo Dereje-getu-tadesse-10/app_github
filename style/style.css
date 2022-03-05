@@ -3,6 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  font-family: 'Space Mono';
 }
 
 body {
@@ -23,10 +24,34 @@ main {
           align-items: center;
 }
 
-section {
+main section {
   margin: auto;
   width: 40%;
   height: 80%;
-  background-color: #fefefe;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
