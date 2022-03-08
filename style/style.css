@@ -153,8 +153,9 @@ form #erorr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
+  margin: 7% auto;
   background-color: #f6f8ff;
+  border-radius: 10px;
 }
 
 .container-user-info .repos,
