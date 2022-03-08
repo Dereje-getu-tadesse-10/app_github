@@ -161,7 +161,7 @@ form #erorr {
 .container-user-info .repos,
 .container-user-info .followers,
 .container-user-info .followings {
-  padding: 1em;
+  margin: auto;
   text-align: center;
 }
 
@@ -178,6 +178,8 @@ form #erorr {
 .end-container .lien,
 .end-container .twitter,
 .end-container .company {
+  margin: 0;
+  padding: 0;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;

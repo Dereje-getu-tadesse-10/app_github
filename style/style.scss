@@ -118,7 +118,6 @@ form{
         width: 90%;
     }
     & #container-grey{
-
         width: 90%;
         height: 15%;
         display:flex;
@@ -131,7 +130,7 @@ form{
     & .repos,
       .followers,
       .followings{
-          padding: 1em;
+        margin: auto;
           text-align: center;
       }
 }
@@ -150,6 +149,8 @@ form{
       .lien,
       .twitter,
       .company{
+          margin:0;
+          padding:0;
           height: 50px;
           display: flex;
           align-items: center;
