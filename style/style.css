@@ -164,4 +164,26 @@ form #erorr {
   padding: 1em;
   text-align: center;
 }
+
+.end-container {
+  width: 90%;
+  margin: auto;
+}
+
+.end-container img {
+  width: 25px;
+}
+
+.end-container .position,
+.end-container .lien,
+.end-container .twitter,
+.end-container .company {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */

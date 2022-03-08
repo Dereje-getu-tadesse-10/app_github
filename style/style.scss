@@ -136,3 +136,23 @@ form{
       }
 }
 
+// debut du container de liens
+
+.end-container{
+    width: 90%;
+    margin:auto;
+
+    & img{
+        width:25px
+    }
+
+    & .position,
+      .lien,
+      .twitter,
+      .company{
+          height: 50px;
+          display: flex;
+          align-items: center;
+      }
+
+}
