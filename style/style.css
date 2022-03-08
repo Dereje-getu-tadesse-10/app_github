@@ -118,10 +118,15 @@ form #erorr {
 }
 
 .container-user-info .profile {
-  padding: 20px;
+  padding: 1.5em;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
 }
 
 .container-user-info img {

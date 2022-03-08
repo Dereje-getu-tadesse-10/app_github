@@ -35,6 +35,20 @@
 }
 
 @media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  p,
+  a {
+    font-size: 1.2rem;
+  }
+  .img {
+    height: 117px;
+    width: 117px;
+  }
+  .infoUsername {
+    margin-top: 1.2em;
+  }
   form {
     width: 100%;
   }
@@ -49,7 +63,7 @@
     margin-right: 1em;
   }
   .container-user-info {
-    height: 53vh;
+    height: 58vh;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
