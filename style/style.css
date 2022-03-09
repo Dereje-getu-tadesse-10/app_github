@@ -201,4 +201,18 @@ form #erorr {
   padding-left: 1em;
   cursor: pointer;
 }
+
+.bold {
+  font-family: 'Space Mono';
+  font-weight: bold;
+}
+
+.gris {
+  color: #4B6A9B;
+  font-weight: regular;
+}
+
+.lien-github {
+  color: #0079FF;
+}
 /*# sourceMappingURL=style.css.map */

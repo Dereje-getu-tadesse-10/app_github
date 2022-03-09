@@ -87,3 +87,14 @@
     }
     
 }
+
+@media only screen and (min-width:1000px){
+    .infoUsername{
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+    }
+    .test{
+        order:1;
+    }
+}

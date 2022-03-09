@@ -135,7 +135,7 @@ form{
       .followers,
       .followings{
         margin: auto;
-          text-align: center;
+        text-align: center;
       }
 }
 
@@ -167,4 +167,20 @@ form{
         cursor: pointer;
     }
 
+}
+
+// Bold style
+
+.bold{
+    font-family: 'Space Mono';
+    font-weight: bold;
+}
+
+.gris{
+    color:#4B6A9B;
+    font-weight: regular;
+}
+
+.lien-github{
+    color:#0079FF;
 }
