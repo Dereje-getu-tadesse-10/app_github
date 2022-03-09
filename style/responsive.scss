@@ -94,7 +94,11 @@
         display:flex;
         justify-content:space-between;
     }
-    .test{
-        order:1;
+    .container-user-info{
+        margin-top:5%;
+        height:100%;
+    }
+    .container-grey{
+        text-align:left;
     }
 }
